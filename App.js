@@ -17,21 +17,7 @@ export default function App() {
       <PaperProvider>
         <NavigationContainer>
           <Tab.Navigator>
-
-
-          <Tab.Screen
-              name="Alunos"
-              component={CursosStack}
-              options={{
-                tabBarIcon: () => (
-                  <MaterialCommunityIcons name="account" size={26} />
-
-                ),
-              }}
-            />
             
-
-
             <Tab.Screen
               name="Cursos"
               component={CursosStack}
@@ -48,6 +34,18 @@ export default function App() {
               options={{
                 tabBarIcon: () => (
                   <MaterialCommunityIcons name="book-open-page-variant" size={26} />
+
+                ),
+              }}
+            />
+
+            
+          <Tab.Screen
+              name="Alunos"
+              component={CursosStack}
+              options={{
+                tabBarIcon: () => (
+                  <MaterialCommunityIcons name="account" size={26} />
 
                 ),
               }}

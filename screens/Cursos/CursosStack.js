@@ -1,22 +1,20 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react'
-import { Text } from 'react-native'
-import CursosForm from './CursosForm';
 import Cursos from './Cursos';
+import CursosForm from './CursosForm';
 
 
 const Stack = createNativeStackNavigator();
 
 const CursosStack = () => {
-  return (
-    <>
-     <Stack.Navigator>
-                <Stack.Screen name='cursos' component={Cursos} options={{ title: 'Cursos' }} />
-                <Stack.Screen name='cursosform' component={CursosForm} options={{ title: 'Forumularios' }} />
+    return (
+        <>
+            <Stack.Navigator>
+                <Stack.Screen name='Cursos' component={Cursos} options={{ title: 'Cursos' }} />
+                <Stack.Screen name='Cursos-Form' component={CursosForm} options={{ title: 'Formulario' }} />
             </Stack.Navigator>
-    
-    </>
-  )
+        </>
+    )
 }
 
 export default CursosStack
