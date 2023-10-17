@@ -23,7 +23,7 @@ export default function App() {
               component={CursosStack}
               options={{
                 tabBarIcon: () => (
-                  <MaterialCommunityIcons name="book" size={26} />
+                  <MaterialCommunityIcons name="bookshelf" size={26} />
 
                 ),
               }}
@@ -33,7 +33,7 @@ export default function App() {
               component={CursosStack}
               options={{
                 tabBarIcon: () => (
-                  <MaterialCommunityIcons name="book-open-page-variant" size={26} />
+                  <MaterialCommunityIcons name="book-open-variant" size={26} />
 
                 ),
               }}
@@ -45,7 +45,7 @@ export default function App() {
               component={CursosStack}
               options={{
                 tabBarIcon: () => (
-                  <MaterialCommunityIcons name="account" size={26} />
+                  <MaterialCommunityIcons name="human-handsup" size={26} />
 
                 ),
               }}
@@ -56,7 +56,7 @@ export default function App() {
               component={CursosStack}
               options={{
                 tabBarIcon: () => (
-                  <MaterialCommunityIcons name="clipboard-account-outline" size={26} />
+                  <MaterialCommunityIcons name="account-tie" size={26} />
 
                 ),
               }}
@@ -66,7 +66,7 @@ export default function App() {
               component={CursosStack}
               options={{
                 tabBarIcon: () => (
-                  <MaterialCommunityIcons name="school" size={26} />
+                  <MaterialCommunityIcons name="google-classroom" size={26} />
 
                 ),
               }}
